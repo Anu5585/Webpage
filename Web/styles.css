@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@100;300&display=swap');
+
+:root {
+    --main-bg-color: brown;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+    background-color: #e16c6c;
+}
+
+@media and
+
+/* header{
+    
+    background:var(--main-bg-color);
+    border: 2px solid red;
+    font-family: 'Lato', sans-serif;
+} */
+nav {
+    display: flex;
+    border-color: brown;
+
+
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: rgb(25, 90, 255);
+    font-weight: bolder;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border: radius 2px;
+    margin: 1px 13px 4px 8px;
+    padding: 2px;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding: 0 12px;
+}
+
+.slider {
+    width: 90vw;
+    margin: auto;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #ebebe2;
+    min-height: calc(100vh - 58px - 12vh)
+}
+
+footer {
+    height: 12vh;
+    border: 2px solid red;
+    background: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
